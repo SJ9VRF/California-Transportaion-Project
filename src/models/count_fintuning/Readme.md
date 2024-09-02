@@ -32,4 +32,4 @@ This algorithm is used for automating and estimating parameter calculations for 
    - Repeat the above steps for 10 points and return the average number of points.
 
 Comment:
-Weak of Aug 26.
+Week of August 26
