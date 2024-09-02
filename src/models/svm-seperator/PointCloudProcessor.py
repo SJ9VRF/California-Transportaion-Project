@@ -109,7 +109,7 @@ class PointCloudProcessor:
         fig = go.Figure(data=[trace1, trace2], layout=layout)
         fig.show()
 
-# Example usage
+# PointCloudProcessor.py Example usage
 processor = PointCloudProcessor(num_points=1000)  # Change it: I created a processor with 1000 random points
 top_part, bottom_part = processor.process(label=3)  # Process the cloud for label 3
 
