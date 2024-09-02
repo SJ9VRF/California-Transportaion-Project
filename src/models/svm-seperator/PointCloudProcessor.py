@@ -1,6 +1,10 @@
 import numpy as np
 import plotly.graph_objects as go
 
+"""
+Short Comment:
+# Split the object into top_part and bottom_part based on the middle z value of the middle section
+"""
 
 class PointCloudProcessor:
     def __init__(self, num_points=1000):
