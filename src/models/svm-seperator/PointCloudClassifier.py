@@ -16,7 +16,7 @@ class PointCloudClassifier:
         self.clf.fit(X, y)
         return self.clf.coef_[0], self.clf.intercept_[0]
 
-    def plot_decision_boundary(self, X_a, X_b, w, b):
+    def plot_decision_boundary(self, X, X_a, X_b, w, b):
         xx, yy = np.meshgrid(np.linspace(np.min(X[:, 0]), np.max(X[:, 0]), 50),
                              np.linspace(np.min(X[:, 1]), np.max(X[:, 1]), 50))
         zz = (-w[0] * xx - w[1] * yy - b) / w[2]
@@ -51,21 +51,22 @@ class PointCloudClassifier:
         pio.write_html(fig, file='svm_decision_boundary.html', auto_open=False)
         fig.show()
 
-# PointCloudClassifier.py Usage Example
-file_path = visualise.file_paths[0]
-classifier = PointCloudClassifier(file_path)
+# Example usage
+if __name__ == "__main__":
+    file_path = visualise.file_paths[0]
+    classifier = PointCloudClassifier(file_path)
 
-classification_value_a = 3
-classification_value_b = 2
+    classification_value_a = 3
+    classification_value_b = 2
 
-X_a = classifier.load_point_cloud_data(classification_value_a)
-X_b = classifier.load_point_cloud_data(classification_value_b)
+    X_a = classifier.load_point_cloud_data(classification_value_a)
+    X_b = classifier.load_point_cloud_data(classification_value_b)
 
-y_a = np.zeros(X_a.shape[0])
-y_b = np.ones(X_b.shape[0])
+    y_a = np.zeros(X_a.shape[0])
+    y_b = np.ones(X_b.shape[0])
 
-X = np.vstack((X_a, X_b))
-y = np.hstack((y_a, y_b))
+    X = np.vstack((X_a, X_b))
+    y = np.hstack((y_a, y_b))
 
-w, b = classifier.train_classifier(X, y)
-classifier.plot_decision_boundary(X_a, X_b, w, b)
+    w, b = classifier.train_classifier(X, y)
+    classifier.plot_decision_boundary(X, X_a, X_b, w, b)
