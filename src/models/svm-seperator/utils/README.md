@@ -25,6 +25,9 @@
 4. **Visualization**:
    - The `visualize` method creates an interactive 3D plot that shows the point cloud, the plane, the k-nearest points, and the best-fit line. This visualization allows for an in-depth exploration of how the points, plane, and line relate to each other in 3D space.
 
+5. **Sample Usage**:
+   - Check the sample usage part.
+   - 
 ## Sample Visualization
 - Check interactive visualization in ```sample_run```
 <img width="865" alt="Screenshot 2024-09-02 at 1 29 55 PM" src="https://github.com/user-attachments/assets/5851ea68-e4e8-4b49-9ffc-edbb47405f4d">
