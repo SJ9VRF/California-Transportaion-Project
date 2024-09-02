@@ -1,10 +1,6 @@
 import numpy as np
 import plotly.graph_objects as go
 
-"""
-Short Comment:
-# Split the object into top_part and bottom_part based on the middle z value of the middle section
-"""
 
 class PointCloudProcessor:
     def __init__(self, num_points=1000):
@@ -109,10 +105,11 @@ class PointCloudProcessor:
         fig = go.Figure(data=[trace1, trace2], layout=layout)
         fig.show()
 
-# PointCloudProcessor.py Example usage
-processor = PointCloudProcessor(num_points=1000)  # Change it: I created a processor with 1000 random points
-top_part, bottom_part = processor.process(label=3)  # Process the cloud for label 3
+# Example usage
+if __name__ == "__main__":
+    processor = PointCloudProcessor(num_points=1000)  # Change it: I created a processor with 1000 random points
+    top_part, bottom_part = processor.process(label=3)  # Process the cloud for label 3
 
-# Visualize the results
-processor.visualize(top_part, bottom_part)
+    # Visualize the results
+    processor.visualize(top_part, bottom_part)
 
