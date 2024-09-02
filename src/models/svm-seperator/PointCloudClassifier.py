@@ -51,7 +51,7 @@ class PointCloudClassifier:
         pio.write_html(fig, file='svm_decision_boundary.html', auto_open=False)
         fig.show()
 
-# Usage Example
+# PointCloudClassifier.py Usage Example
 file_path = visualise.file_paths[0]
 classifier = PointCloudClassifier(file_path)
 
