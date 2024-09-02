@@ -125,7 +125,7 @@ class PlaneNearestPointsFitter:
         fig.show()
 
 
-# Example usage
+# PlaneNearestPointsFitter.py Example usage
 if __name__ == "__main__":
     # Define a plane equation in the specified format, e.g., "1x + 2y + -3z + 4 = 0"
     plane_eq = "1x + 2y + -3z + 4 = 0"
