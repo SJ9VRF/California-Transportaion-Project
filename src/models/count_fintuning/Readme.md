@@ -30,3 +30,6 @@ This algorithm is used for automating and estimating parameter calculations for 
 
 8. **Repeat and average**
    - Repeat the above steps for 10 points and return the average number of points.
+
+Comment:
+Weak of Aug 26.
