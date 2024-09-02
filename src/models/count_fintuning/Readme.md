@@ -1,4 +1,6 @@
 ## Parameter Tuning Based on the Density Point Calculation
+This algorithm is used for automating and estimating parameter calculations for the nearest point count in the measurement process.
+
 
 ### Algorithm Steps:
 
