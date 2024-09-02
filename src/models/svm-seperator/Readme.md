@@ -10,7 +10,7 @@ Interactive visualization of each file is available at ```bash sample_run```.
 - **File**: `PointCloudClassifier.py`
 - **Description**: This class provides methods to determine the equation of a plane separator between two given classes in a point cloud dataset.
 - **Result Visualisation**:
-Interactive visualization is available at ```bash sample_run```.
+Interactive visualization is available at ```sample_run```.
 <img width="868" alt="Screenshot 2024-09-02 at 11 46 25 AM" src="https://github.com/user-attachments/assets/c1511f41-a9db-485c-a52d-b5dc356b6b7b">
 
 
