@@ -1,4 +1,4 @@
-# Python Geometry Processing Classes
+# ADA Ramp Point Cloud Classification and Processing Classes
 
 This repository contains Python classes designed for geometry processing tasks. Each class has specific functionalities related to point cloud and hyperplane operations. Please check each file for example usage. 
 
