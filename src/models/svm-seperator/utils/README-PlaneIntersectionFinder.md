@@ -20,3 +20,4 @@ The `find_intersection_line` method calculates the direction vector of the inter
 
 ### Visualization:
 The `visualize` method creates an interactive 3D plot that shows the two planes and the intersection line. This visualization allows for an in-depth exploration of how the planes intersect in 3D space.
+<img width="682" alt="Screenshot 2024-09-02 at 1 40 51 PM" src="https://github.com/user-attachments/assets/f2575dd0-d29a-476d-a9a9-a0265888dfa3">
