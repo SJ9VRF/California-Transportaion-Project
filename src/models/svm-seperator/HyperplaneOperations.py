@@ -63,7 +63,7 @@ class HyperplaneOperations:
                           margin=dict(l=0, r=0, b=0, t=0))
         fig.show()
 
-# My Example usage
+# HyperplaneOperations.py Example usage
 h_operations = HyperplaneOperations()
 sample_points = h_operations.generate_sample_points()
 eq1 = "1x + 0y + 2z - 1 = 0"
