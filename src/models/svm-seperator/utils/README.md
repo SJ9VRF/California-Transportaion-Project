@@ -27,7 +27,7 @@
 
 5. **Sample Usage**:
    - Check the sample usage part.
-   - 
+     
 ## Sample Visualization
 - Check interactive visualization in ```sample_run```
 <img width="865" alt="Screenshot 2024-09-02 at 1 29 55 PM" src="https://github.com/user-attachments/assets/5851ea68-e4e8-4b49-9ffc-edbb47405f4d">
