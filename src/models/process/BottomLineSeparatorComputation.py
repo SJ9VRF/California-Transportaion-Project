@@ -1,13 +1,14 @@
 import numpy as np
+import utils
 import visualise_no_normalization as visualise
 from PointCloudClassifier import PointCloudClassifier
 from HyperplaneOperations import HyperplaneOperations
 from ArrayPointCloudClassifier import ArrayPointCloudClassifier
-# from PointCloudProcessor import PointCloudProcessor
 from LabeledPointCloudProcessor import LabeledPointCloudProcessor
-#from SimplePointCloudProcessor import SimplePointCloudProcessor
-import utils
 from PlaneNearestPointsFitter import PlaneNearestPointsFitter
+
+# from PointCloudProcessor import PointCloudProcessor
+# from SimplePointCloudProcessor import SimplePointCloudProcessor
 
 # Step 1: Compute Center Part
 
@@ -134,14 +135,16 @@ fitter.visualize(k_nearest_points, direction_vector, point_on_line, t_range)
 print("Direction vector of the fitted line:", direction_vector)
 print("A point on the fitted line:", point_on_line)
 
-"""
+
 # Output Results
+print()
+print('Output Results')
 print("Left Plane Equation:", eq_left)
 print("Right Plane Equation:", eq_right)
 print("Bottom Plane Equation:", eq_bottom)
 print("Direction vector of the fitted line:", direction_vector)
 print("A point on the fitted line:", point_on_line)
-
+"""
 # Optional: Visualization
 
 classifier = PointCloudClassifier(file_path)
@@ -153,4 +156,3 @@ processor.visualize(top_part=None, bottom_part=bottom_part)
 
 
 print('----- Step 4 Completed! -----')
-
