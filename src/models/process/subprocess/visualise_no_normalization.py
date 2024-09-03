@@ -5,13 +5,8 @@ from collections import Counter
 from matplotlib.colors import to_rgb
 
 # Read LAS file
-file_paths = ["ChicoADA144_r3_Left_GND_2.las",
-              "NAP121_6_Left_gnd_0.las",
-              'SF1_19_run3_1_Right_gnd_2_1.las',
-              'SUT20_20231019_run1_Right_1000m_GND_1.las',
-              'woodlandADA_r8_Left_GND_20.las',
-              'woodlandADA_r10_Left_GND_13.las']
-main_path = "/Users/arefehyavary/Downloads/pointclouds w updated classification/"
+file_paths = ["", ""]
+main_path = ""
 file_paths = [main_path + item for item in file_paths]
 file_path = file_paths[0]
 
