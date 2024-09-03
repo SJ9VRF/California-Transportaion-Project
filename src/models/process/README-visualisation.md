@@ -1,4 +1,4 @@
-# Visualisatoin
+# Visualisation
 Interactive visualisation is avaialbe at sample_run folder.
 
 ## Step 1.
