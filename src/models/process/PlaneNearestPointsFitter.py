@@ -153,3 +153,4 @@ if __name__ == "__main__":
     print("Direction vector of the fitted line:", direction_vector)
     print("A point on the fitted line:", point_on_line)
 
+
