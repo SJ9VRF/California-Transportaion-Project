@@ -9,7 +9,7 @@ Probable Failures:
 - labels
 - Negative slope in between calcuations (it fixed, but if fails, just double check the visualisation/change <= to >=)
 - I corrected the normalisation part, however let me know if you faced error / normalised part.
-- 
+  
 ## First
 - Input_1 (with Ribbons)
 1- Bottom part separator
