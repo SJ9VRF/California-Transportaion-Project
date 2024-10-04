@@ -9,7 +9,6 @@ This process computes the bottom line separator from a given point cloud file.
 
 ## Input
 - **pc file:** A point cloud file.
-- 
 
 ## Output
 - **Bottom Line Separator:** Equation representing the bottom line separator.
