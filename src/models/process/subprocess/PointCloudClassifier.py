@@ -56,8 +56,8 @@ if __name__ == "__main__":
     file_path = visualise.file_paths[0]
     classifier = PointCloudClassifier(file_path)
 
-    classification_value_a = 3
-    classification_value_b = 2
+    classification_value_a = 3 # Center
+    classification_value_b = 2 # Right
 
     X_a = classifier.load_point_cloud_data(classification_value_a)
     X_b = classifier.load_point_cloud_data(classification_value_b)
