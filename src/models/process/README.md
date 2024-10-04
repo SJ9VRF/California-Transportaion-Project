@@ -1,9 +1,15 @@
 # Bottom Line Separator Computation
 
+Current code
+0 Label: Unlabeled (Landing + Guttter)
+1 Label: 3 as Center
+2 Label: 1 Left
+3 Label: 2 Right
 This process computes the bottom line separator from a given point cloud file.
 
 ## Input
 - **pc file:** A point cloud file.
+- 
 
 ## Output
 - **Bottom Line Separator:** Equation representing the bottom line separator.
@@ -13,7 +19,7 @@ This process computes the bottom line separator from a given point cloud file.
 ### 1. Compute Center Part
 - **Left Plane Separator:**
   - **Class:** `PointCloudClassifier`
-  - **Input:** `pc`, class labels `1` and `3`
+  - **Input:** `pc`, class labels `1` and `3` 
   - **Output:** Left plane separator equation (`eq_1`)
 
 - **Right Plane Separator:**
